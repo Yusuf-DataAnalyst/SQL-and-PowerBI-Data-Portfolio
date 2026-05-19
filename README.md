@@ -21,8 +21,14 @@ Welcome to my professional SQL and Power BI data portfolio! This repository serv
   * **عربي:** مشروع تحليل متكامل لسوق العقارات في بوسطن. قمت بكتابة استعلامات SQL متقدمة لتصنيف فئات السوق واستكشاف الفروق السعرية الإحصائية، ثم صممت لوحة تحكم ديناميكية تفاعلية بثيم غامق واحترافي في Power BI.
 * **📊 Key Analytics & Code Showcase | الاستعلامات والرؤى:**
   * **Charles River Price Premium:** SQL aggregations proved that waterfront properties (`CHAS = 1`) possess a **27% higher price point** than others.
-  * الاستعلامات أثبتت أن المنازل المطلة على نهر تشارلز تتمتع بمتوسط سعري أعلى بنسبة 27%.
+
+* الاستعلامات أثبتت أن المنازل المطلة على نهر تشارلز تتمتع بمتوسط سعري أعلى بنسبة 2%.
+
+![Boston Housing Preview 1](boston.png.png)
+![Boston Housing Preview 2](boston2.png.png)
+
 * **💻 SQL Script File:** `boston_analysis_queries.sql`
+  
 
 #### 📝 Sample SQL Architecture Used:
 ```sql
