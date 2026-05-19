@@ -1,36 +1,53 @@
-# SQL-a# 🖥️ SQL & Power BI Data Analytics Portfolio
-## معرض مشاريع قواعد البيانات ولوحات التحكم التفاعلية
+# 🖥️ SQL & Power BI Data Analytics Portfolio
+## معرض مشاريع قواعد البيانات ولوحات التحكم التفاعلية الشامل
 
-Welcome to my professional SQL and Power BI data portfolio! This repository serves as a centralized hub showcasing my advanced capability to handle database querying, statistical segmentation, and fluid data visualization.
+Welcome to my comprehensive SQL and Power BI portfolio! Here I consolidate all my enterprise dashboards, data models, and database querying projects in one place.
 
-مرحباً بكم في معرض مشاريعي المتقدم! يجمع هذا المستودع بين مهاراتي في إدارة واستعلام قواعد البيانات باستخدام لغة SQL وبناء لوحات التحكم الديناميكية التفاعلية عبر برنامج Power BI لاستخراج مؤشرات الأداء ودعم اتخاذ القرار.
+مرحباً بكم في معرض مشاريعي الشامل لـ SQL و Power BI! يضم هذا المستودع جميع لوحات التحكم التفاعلية، نماذج البيانات، واستعلامات قواعد البيانات التي قمت ببنائها لتحليل الأداء ودعم اتخاذ القرار.
 
 ---
 
 ## 🛠️ Technical Capabilities | الأدوات والتقنيات
 * **Database Management:** MySQL Server / MySQL Workbench
-* **Business Intelligence (BI):** Power BI Desktop (Data Modeling, DAX, Interactive Desing)
+* **Business Intelligence (BI):** Power BI Desktop (Data Modeling, DAX, Interactive Design)
 
 ---
 
-## 🚀 Featured Projects | المشاريع المرفوعة
+## 🚀 All Uploaded Projects | جميع المشاريع المرفوعة
 
 ### 1️⃣ Boston Housing Market Analysis (SQL & Power BI) 🏙️
 * **📌 Project Overview | عن المشروع:**
-  * **English:** A comprehensive data project on the Boston Housing dataset. I used SQL to construct advanced analytical queries and market categories, then migrated the insights into Power BI to build a dark-themed dynamic presentation.
-  * **عربي:** مشروع تحليل متكامل لسوق العقارات في بوسطن. قمت بكتابة استعلامات SQL متقدمة لتصنيف فئات السوق واستكشاف الفروق السعرية الإحصائية، ثم صممت لوحة تحكم ديناميكية تفاعلية بثيم غامق واحترافي في Power BI.
-* **📊 Key Analytics & Code Showcase | الاستعلامات والرؤى:**
-  * **Charles River Price Premium:** SQL aggregations proved that waterfront properties (`CHAS = 1`) possess a **27% higher price point** than others.
-
-* الاستعلامات أثبتت أن المنازل المطلة على نهر تشارلز تتمتع بمتوسط سعري أعلى بنسبة 2%.
-
+  * **English:** Advanced data analysis on the Boston Housing dataset using SQL for deep querying and market segmentation, then visualizing the insights in Power BI.
+  * **عربي:** مشروع تحليل متكامل لسوق العقارات في بوسطن. استخدمت استعلامات SQL متقدمة لتصنيف فئات السوق، وصممت لوحة تحكم تفاعلية بثيم غامق في Power BI.
+* **💻 SQL Script File:** `boston_analysis_queries.sql`
+* **📸 Project Previews | معاينة المشروع:**
 ![Boston Housing Preview 1](boston.png.png)
 ![Boston Housing Preview 2](boston2.png.png)
 
-* **💻 SQL Script File:** `boston_analysis_queries.sql`
-  
+---
 
-#### 📝 Sample SQL Architecture Used:
+### 2️⃣ Sales & Profit Performance Dashboard (Power BI) 📈
+* **📌 Project Overview | عن المشروع:**
+  * **English:** An enterprise commercial dashboard designed to track corporate financial health, analyze multi-regional revenue streams, and monitor profit growth margins dynamically.
+  * **عربي:** لوحة تحكم تجارية متكاملة لمراقبة الأداء المالي للشركات، تتبع حجم المبيعات الإجمالية وحساب نسب تحقيق المستهدفات وهوامش الأرباح بشكل تفاعلي مرن.
+* **📊 Dashboard Source File:** `Sales & Profit Performance Dashboard.pbix`
+* **📸 Project Preview | معاينة المشروع:**
+![Sales and Profit Dashboard Preview](sales_dashboard.png.png)
+
+---
+
+### 3️⃣ Zomato vs Swiggy Food Delivery Analysis (Power BI) 🛒
+* **📌 Project Overview | عن المشروع:**
+  * **English:** A comparative analysis evaluating the sales performance, market share, and geographic distribution of order volumes between two major food delivery platforms.
+  * **عربي:** مشروع تحليل ومقارنة أداء المبيعات وسلوك المستهلكين والحصة السوقية لأكبر منصتين في قطاع توصيل الطعام (Zomato و Swiggy) لمعرفة المناطق الأكثر تحقيقاً للأرباح.
+* **📊 Dashboard Source File:** `Zomato-vs-Swiggy-Analysis.pbix`
+* **📸 Project Preview | معاينة المشروع:**
+![Zomato vs Swiggy Preview](Zomato-vs-Swiggy-Analysis.jpg)
+
+---
+
+## 💻 Sample SQL Architecture Used (Boston Project)
+
 ```sql
 SELECT 
     CASE 
