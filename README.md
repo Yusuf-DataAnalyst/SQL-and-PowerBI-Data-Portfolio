@@ -1,21 +1,35 @@
-# 🖥️ SQL & Power BI Data Analytics Portfolio
-## معرض مشاريع قواعد البيانات ولوحات التحكم التفاعلية الشامل
+# 🖥️ SQL, Power BI & Tableau Data Analytics Portfolio
+## معرض مشاريع قواعد البيانات ولوحات التحكم التفاعلية الشامل (BI & SQL)
 
-Welcome to my comprehensive SQL and Power BI portfolio! Here I consolidate all my enterprise dashboards, data models, and database querying projects in one place.
+Welcome to my comprehensive Data Analytics portfolio! This repository serves as a centralized hub showcasing my advanced capability to handle database querying, data modeling, and business intelligence across leading platforms like Power BI and Tableau.
 
-مرحباً بكم في معرض مشاريعي الشامل لـ SQL و Power BI! يضم هذا المستودع جميع لوحات التحكم التفاعلية، نماذج البيانات، واستعلامات قواعد البيانات التي قمت ببنائها لتحليل الأداء ودعم اتخاذ القرار.
+مرحباً بكم في معرض مشاريعي الشامل لتحليل البيانات! يجمع هذا المستودع المطور بين مهاراتي في إدارة واستعلام قواعد البيانات باستخدام لغة SQL وبناء لوحات التحكم الديناميكية التفاعلية عبر برنامجي Power BI و Tableau لاستخراج مؤشرات الأداء ودعم اتخاذ القرار.
 
 ---
 
 ## 🛠️ Technical Capabilities | الأدوات والتقنيات
 * **Database Management:** MySQL Server / MySQL Workbench
-* **Business Intelligence (BI):** Power BI Desktop (Data Modeling, DAX, Interactive Design)
+* **Business Intelligence (BI):** Power BI Desktop & Tableau Public (Interactive Design, DAX, Data Visualizations)
 
 ---
 
-## 🚀 All Uploaded Projects | جميع المشاريع المرفوعة
+## 🚀 Featured Projects | المشاريع المرفوعة
 
-### 1️⃣ Boston Housing Market Analysis (SQL & Power BI) 🏙️
+### 1️⃣ Video Game Sales Performance Dashboard (Tableau) 🎮
+* **📌 Project Overview | عن المشروع:**
+  * **English:** A dynamic Tableau dashboard analyzing global video game sales across different platforms, genres, and regions (NA vs JP). It tracks industry trends and identifies top-performing gaming ecosystems.
+  * **عربي:** لوحة تحكم تفاعلية متطورة صممتها باستخدام برنامج Tableau لتحليل مبيعات الألعاب الإلكترونية عالمياً. تتبع اللوحة أداء منصات الألعاب المختلفة، مبيعات فئات الألعاب، ومقارنة اتجاهات السوق بين أمريكا الشمالية واليابان.
+* **📊 Key Insights Extracted | أهم الرؤى:**
+  * Action and Sports genres dominate absolute global sales volume.
+  * ألعاب الأكشن والرياضة تستحوذ على الحصة الأكبر من حجم المبيعات الإجمالي عالمياً.
+  * PS2 and X360 remain the historic kings of platforms in total sales volume.
+  * منصات مثل PS2 و X360 تصدرت تاريخياً إجمالي حجم المبيعات للمنصات.
+* **📸 Project Preview | معاينة المشروع:**
+![Video Game Sales Preview](tableau_games.png)
+
+---
+
+### 2️⃣ Boston Housing Market Analysis (SQL & Power BI) 🏙️
 * **📌 Project Overview | عن المشروع:**
   * **English:** Advanced data analysis on the Boston Housing dataset using SQL for deep querying and market segmentation, then visualizing the insights in Power BI.
   * **عربي:** مشروع تحليل متكامل لسوق العقارات في بوسطن. استخدمت استعلامات SQL متقدمة لتصنيف فئات السوق، وصممت لوحة تحكم تفاعلية بثيم غامق في Power BI.
@@ -26,17 +40,17 @@ Welcome to my comprehensive SQL and Power BI portfolio! Here I consolidate all m
 
 ---
 
-### 2️⃣ Sales & Profit Performance Dashboard (Power BI) 📈
+### 3️⃣ Sales & Profit Performance Dashboard (Power BI) 📈
 * **📌 Project Overview | عن المشروع:**
   * **English:** An enterprise commercial dashboard designed to track corporate financial health, analyze multi-regional revenue streams, and monitor profit growth margins dynamically.
-  * **عربي:** لوحة تحكم تجارية متكاملة لمراقبة الأداء المالي للشركات، تتبع حجم المبيعات الإجمالية وحساب نسب تحقيق المستهدفات وهوامش الأرباح بشكل تفاعلي مرن.
+  * **عربي:** لوحة تحكم تجارية متكاملة على مستوى الشركات لمراقبة الأداء المالي، تتبع حجم المبيعات الإجمالية وحساب نسب تحقيق المستهدفات وهوامش الأرباح بشكل تفاعلي مرن.
 * **📊 Dashboard Source File:** `Sales & Profit Performance Dashboard.pbix`
 * **📸 Project Preview | معاينة المشروع:**
 ![Sales and Profit Dashboard Preview](sales_dashboard.png.png)
 
 ---
 
-### 3️⃣ Zomato vs Swiggy Food Delivery Analysis (Power BI) 🛒
+### 4️⃣ Zomato vs Swiggy Food Delivery Analysis (Power BI) 🛒
 * **📌 Project Overview | عن المشروع:**
   * **English:** A comparative analysis evaluating the sales performance, market share, and geographic distribution of order volumes between two major food delivery platforms.
   * **عربي:** مشروع تحليل ومقارنة أداء المبيعات وسلوك المستهلكين والحصة السوقية لأكبر منصتين في قطاع توصيل الطعام (Zomato و Swiggy) لمعرفة المناطق الأكثر تحقيقاً للأرباح.
