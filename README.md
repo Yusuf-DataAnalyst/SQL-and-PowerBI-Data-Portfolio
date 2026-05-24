@@ -83,7 +83,7 @@ Welcome to my comprehensive Data Analytics portfolio! This repository serves as 
     SELECT region, AVG(duration_hours) AS avg_duration FROM airspace_closures GROUP BY region ORDER BY avg_duration DESC;
     ```
 * **📸 Project Preview:**
-![Global Airspace Connectivity Preview](Screenshot 2026-05-24 204957.png)
+![Global Airspace Connectivity Preview]
 ![SQL Analysis 1](airplace1.png)
 ![SQL Analysis 2](airplace2.png)
 ![SQL Analysis 3](airplace3.png)
