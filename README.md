@@ -69,6 +69,27 @@ Welcome to my comprehensive Data Analytics portfolio! This repository serves as 
 * **📸 Project Preview | معاينة المشروع:**
 ![Global Airspace Connectivity Preview](airplace.png)
 
+**💻 SQL Analytics Showcase:** I performed deep data exploration using SQL to quantify the impact of airspace closures:
+  - **Total Flights Impacted:**
+    ```sql
+    SELECT SUM(flights_affected) AS total_flights_impacted FROM airspace_closures;
+    ```
+  - **High-Risk Zones:**
+    ```sql
+    SELECT country, COUNT(*) AS total_closures FROM airspace_closures GROUP BY country ORDER BY total_closures DESC;
+    ```
+  - **Regional Risk:**
+    ```sql
+    SELECT region, AVG(duration_hours) AS avg_duration FROM airspace_closures GROUP BY region ORDER BY avg_duration DESC;
+    ```
+* **📸 Project Preview:**
+![Global Airspace Connectivity Preview](Screenshot 2026-05-24 204957.png)
+![SQL Analysis 1](airplace1.png)
+![SQL Analysis 2](airplace2.png)
+![SQL Analysis 3](airplace3.png)
+
+---
+
 ---
 
 ## 💻 Sample SQL Architecture Used (Boston Project)
