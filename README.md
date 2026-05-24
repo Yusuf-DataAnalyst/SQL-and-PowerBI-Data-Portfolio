@@ -67,7 +67,7 @@ Welcome to my comprehensive Data Analytics portfolio! This repository serves as 
   * **English:** A sophisticated Tableau dashboard analyzing global airspace disruption and risk clusters. It maps NOTAM-issued closures, impacts on flight volume, and temporal threats, providing a strategic view of geopolitical impacts on aviation.
   * **عربي:** لوحة تحكم متطورة باستخدام Tableau لتحليل اضطرابات المجال الجوي العالمي ومخاطر الطيران. المشروع يرسم خرائط إغلاق المجالات الجوية، ويوضح الأثر الكمي على عدد الرحلات الجوية، ويحلل التهديدات الأمنية والجيوسياسية بمرور الوقت.
 * **📸 Project Preview | معاينة المشروع:**
-![Global Airspace Connectivity Preview](Screenshot 2026-05-24 204957.png)
+![Global Airspace Connectivity Preview](airplace.png)
 
 ---
 
