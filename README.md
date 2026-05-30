@@ -82,6 +82,27 @@ Welcome to my comprehensive Data Analytics portfolio! This repository serves as 
 
 ---
 
+### 6️⃣ Global Freelancers SQL Data Cleaning & Analysis 🌍
+* **📌 Project Overview:** This project focuses on database refactoring, data cleaning, and business analysis using **SQL (MySQL)**. The dataset contained multiple formatting, encoding (BOM), and schema errors, which I resolved to build a clean analytical foundation.
+* **🛠️ Tech Stack:** MySQL / MySQL Workbench.
+* **🧼 Database Refactoring & Cleaning Steps:**
+  * **Fixing Schema & Column Names:** Used `ALTER TABLE ... CHANGE COLUMN` to resolve broken headers caused by CSV import artifacts.
+  * **Handling BOM Encoding:** Cleared hidden character encodings (e.g., `ï»¿`) from primary keys (`freelancer_id`) to ensure database integrity and constraint compliance.
+  * **Data Type Casting:** Standardized numerical values and percentages to ensure accurate mathematical calculations.
+* **📊 Analytical Insights:**
+  * **Market Rate Analysis:** Calculated average hourly rates and freelancer distribution grouped by `primary_skill`.
+  * **Talent Metrics:** Aggregated top-tier countries by freelancer count.
+  * **Performance Mapping:** Analyzed the relationship between experience levels and client satisfaction scores.
+* **📸 Project Previews:**
+![Freelance Analysis 1](freelance.png)
+![Freelance Analysis 2](freelance2.png)
+
+
+
+
+
+
+
 ## 💻 Sample SQL Architecture (Boston Project)
 
 ```sql
