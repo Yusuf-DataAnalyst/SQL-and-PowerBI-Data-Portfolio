@@ -101,16 +101,19 @@ Welcome to my comprehensive Data Analytics portfolio! This repository serves as 
 
 
 ---
+---
+
+---
 
 ### 7️⃣ Global Freelancers Market Insights Dashboard (Power BI) 📊
 * **📌 Project Overview:** This is an interactive Power BI dashboard designed to visualize the global freelance market. It provides a comprehensive view of pricing structures, demographic distributions, and client satisfaction benchmarks.
-* **✨ Key Features of the Dashboard:**
-    * **KPI Cards:** Instant visibility into the total talent pool (1K freelancers) and average hourly market rates ($52.42).
-    * **Skill Pricing Matrix:** A horizontal bar chart highlighting the most profitable tech domains (Cybersecurity, Web Dev, etc.).
-    * **Demographic Breakdown:** A donut chart illustrating gender distribution alongside an interactive map tracking regional talent footprints.
-    * **Satisfaction vs. Experience:** Analyzing how different experience tiers impact client satisfaction scores.
-* **📸 Project Preview:**
-![Freelancers Dashboard](freelanceDashboard.png)
+* **✨ Key Analytical Features:**
+    * **Unified Executive View:** Developed high-impact KPI metrics providing real-time visibility into the total talent pool (1,000+ freelancers) and average hourly rates ($52.42).
+    * **Tech Domain Profitability Analysis:** Utilized a matrix to compare profitability across sectors like Cybersecurity and Web Development.
+    * **Geospatial & Demographic Intelligence:** Integrated interactive mapping and donut charts to analyze workforce diversity and regional footprints.
+    * **Experience vs. Satisfaction Correlation:** Implemented bivariate analysis to reveal insights into how expertise levels influence service quality.
+* **🛠️ Technical Workflow:** Data modeling, DAX measure development, and UX design.
+* **📸 Project Preview:** ![Freelancers Dashboard](freelanceDashboard.png)
 
 
 
