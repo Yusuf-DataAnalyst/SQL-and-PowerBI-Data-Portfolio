@@ -122,20 +122,24 @@ Welcome to my comprehensive Data Analytics portfolio! This repository serves as 
 📊 End-to-End Financial Sales Dashboard 🚀
 
 ​A streamlined, multi-tool data pipeline project demonstrating the journey of raw financial data—from initial engineering to relational database management and premium interactive BI visualization.
+
 ​🛠️ Tech Stack
 ​Excel: Data Cleaning, Parsing, & Logical Feature Engineering 🧪
 ​MySQL: Relational Warehousing, SQL Cleaning Scripts, & Advanced Query Aggregations 💾
 ​Tableau: High-Impact Executive Dashboards & Dark Mode Mapping 🎨
 ​🚀 Project Workflow
+
 ​1. Data Cleaning & Architecture (Excel) 🧼
 ​Parsing: Restructured messy string configurations into structured columns.
 ​Feature Engineering: Built nested logical controls to dynamically classify transaction bounds into Small, Medium, or Large tiers.
 ​Financial Modeling: Engineered custom margin calculations for accurate bottom-line tracking.
-​2. Database Warehousing & Pipelines (MySQL) ⚙️
+​
+2. Database Warehousing & Pipelines (MySQL) ⚙️
 ​Staging: Imported data as TEXT to completely bypass strict layout truncation errors.
 ​SQL Cleaning: Authored optimized REPLACE scripts to strip currency symbols and permanently altered metadata columns to numeric DOUBLE formats.
 ​Analytics: Executed complex queries utilizing conditional logic (CASE WHEN) and group filtering via HAVING.
-​3. Executive Business Intelligence (Tableau) 💎
+​
+3. Executive Business Intelligence (Tableau) 💎
 ​Premium UX/UI: Designed an interactive dashboard utilizing a clean, modern desktop layout.
 ​Advanced Visuals: Implemented an interactive global map sheet driven by profit density colors.
 ​Tooltip-in-Tooltip: Embedded a secondary dynamic Bar Chart inside the map's hover tooltips to show localized product performance instantly on hover.
