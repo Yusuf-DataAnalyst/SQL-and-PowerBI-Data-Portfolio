@@ -146,7 +146,9 @@ Welcome to my comprehensive Data Analytics portfolio! This repository serves as 
 ​⚠️ Product Health: While Paseo dominates, Carretera shows consistent stagnation, signaling a need for pricing or marketing adjustments.
 
 
-* **📸 Project Preview:** [!financial_dashboard](financial_dashboard.png)
+* **📸 Project Preview:**
+* ![financial_dashboard](financial_dashboard.png)
+  
 
 
 ## 💻 Sample SQL Architecture (Boston Project)
