@@ -120,6 +120,7 @@ Welcome to my comprehensive Data Analytics portfolio! This repository serves as 
 
 
 📊 End-to-End Financial Sales Dashboard 🚀
+
 ​A streamlined, multi-tool data pipeline project demonstrating the journey of raw financial data—from initial engineering to relational database management and premium interactive BI visualization.
 ​🛠️ Tech Stack
 ​Excel: Data Cleaning, Parsing, & Logical Feature Engineering 🧪
@@ -145,7 +146,7 @@ Welcome to my comprehensive Data Analytics portfolio! This repository serves as 
 ​⚠️ Product Health: While Paseo dominates, Carretera shows consistent stagnation, signaling a need for pricing or marketing adjustments.
 
 
-* **📸 Project Preview:** [!financial_dashboard](financial_dashboard)
+* **📸 Project Preview:** [!financial_dashboard](financial_dashboard.png)
 
 
 ## 💻 Sample SQL Architecture (Boston Project)
