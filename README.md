@@ -49,9 +49,28 @@ Video Game Sales Performance Dashboard (Tableau)
 ---
 
 ### 3️⃣ Sales & Profit Performance Dashboard (Power BI) 📈
-* **Objective:** To provide a single source of truth for corporate financial performance monitoring.
-* **Process:** Developed complex DAX measures to calculate Year-over-Year (YoY) growth, profit margins, and regional revenue distribution. Designed a user-friendly navigation interface with drill-through capabilities.
-* **Outcome:** Empowered stakeholders to track KPIs in real-time, leading to faster decision-making regarding regional budget allocation.
+​📌 Project Overview
+​This project delivers a comprehensive corporate business intelligence solution designed to serve as a single source of truth for monitoring and evaluating financial and operational performance. Built using Power BI, the dashboard translates complex corporate transactional records into dynamic financial insights, enabling executive stakeholders and financial analysts to monitor revenue streams, tracking profitability, and optimize regional budgets efficiently.
+
+​🛠️ Technical Implementation & DAX Modeling
+​The core power of this dashboard lies in its robust data modeling and advanced calculations, moving far beyond basic visual aggregations:
+​Advanced DAX Calculations: Developed complex, optimized DAX measures to compute critical financial metrics including Year-over-Year (YoY) growth, net profit margins, time-intelligence patterns, and moving averages.
+​Dynamic UI/UX Architecture: Designed a user-centric navigation layout featuring interactive slicers (e.g., product filters  advanced tooltips, and drill-through capabilities that allow users to seamlessly transition from macro corporate summaries to micro transaction-level details.
+​Granular Performance Tracking: Structured data views to analyze temporal trends across daily and weekly intervals, capturing seasonal spikes and granular business operational rhythms.
+
+​🔍 Key Business & Financial Insights
+​The analytical architecture of the dashboard empowers organizations with crucial operational visibility:
+​Corporate KPIs in Real-Time: Stakeholders can immediately evaluate high-level business health via core metrics like Total Sales, Net Profit, and Sum of Units Sold (exceeding 3,000+ units as highlighted in the data matrix).
+​Customer & Product Profitability Mapping: Isolates top-performing B2B accounts (such as Uncle Joe's Prep Shop and Apocalypse Preppers United) alongside individual inventory performance (tracking high-volume products like Duct Tape, Multitool Survival Knives, and Nylon Ropes).
+​Agile Budgeting & Allocation: By giving an unfiltered look into product margins and volume velocity, the system directly enables leadership to make faster, data-backed decisions regarding regional resource distribution and supply chain investments.
+
+​📉 Dashboard Breakdown & UI Components
+​As visualized the report interface features structured telemetry tiles:
+​KPI Card Callouts: Highlighted metrics showcasing the absolute volume of products moving through the pipeline (e.g., Sum of Units Sold).
+​Customer Performance Matrix: Comparative tables correlating individual customer accounts with total transaction volumes and Net Profit margins.
+​Product Velocity Matrix: Deep-dive inventory grid sorting exact item names against Total Quantity ordered to evaluate product demand.
+​Temporal Trend Analysis (Daily/Weekly Sales): High-density column charts mapping out revenue flow day-by-day across the calendar month to spot operational anomalies or peak cycles.
+​Multi-Dimensional Slicers: Right-aligned product and category filters allowing instant report-wide context filtering.
 * **Dashboard File:** `Sales & Profit Performance Dashboard.pbix`
 * **Project Preview:** ![Sales and Profit Dashboard Preview](sales_dashboard.png.png)
 
