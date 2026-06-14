@@ -106,9 +106,26 @@ Video Game Sales Performance Dashboard (Tableau)
 ---
 
 ### 5️⃣ Global Airspace Connectivity & Risk Analysis 2026 (Tableau) ✈️
-* **Objective:** To model and visualize the impact of geopolitical instability on global aviation corridors.
-* **Process:** Aggregated flight disruption data using SQL and visualized the spatial-temporal effects of airspace closures. Created dynamic risk clusters to categorize regional threats.
-* **Outcome:** Provided strategic insights into route resilience and flight volume volatility, essential for aviation risk management.
+​📌 Project Overview
+​This specialized business intelligence project focuses on modeling and visualizing the direct impacts of geopolitical instability and security threats on global aviation corridors. Developed using Tableau, the dashboard serves as a strategic risk-assessment tool, transforming complex flight disruption data and aviation notices into actionable geospatial and temporal insights. It is designed to help aviation analysts, compliance officers, and airlines evaluate route resilience, mitigate airspace vulnerabilities, and manage flight volume volatility under crisis conditions.
+
+​🛠️ Technical Implementation & Workflow
+​The project leverages a robust data pipeline designed to handle multidimensional, high-density situational data:
+​Data Aggregation via SQL: Extracted, joined, and cleaned massive datasets tracking international flight disruptions and official aviation alerts using optimized SQL queries.
+​Spatial-Temporal Modeling: Structured the dataset to analyze how airspace closures and flight restrictions propagate across both geographic boundaries and critical timelines.
+​Dynamic Closure Clustering: Engineered dynamic clusters within Tableau to categorize and isolate regional security threats, allowing for a comparative study of risk factors globally.
+
+​🔍 Key Geospatial & Strategic Insights
+​The analytical engine of this dashboard reveals critical operational trends within macro-level risk management:
+​National Disruption Benchmarking: Quantifies and ranks international territories based on total flight impact, highlighting the nations facing severe constraints (with countries like Turkey, Iraq, Qatar, and Saudi Arabia emerging prominently in the metric matrix).
+​Geopolitical Threat Segmentation: Classifies the root causes behind airspace vulnerabilities by analyzing NOTAM (Notice to Air Missions) patterns. It maps out critical triggers such as drone/UAV altitude restrictions, ballistic missile activities, military operational emergency NOTAMs, and active combat zones.
+​Geospatial Risk Mapping: Integrates geographic maps to plot localized risk nodes and closure clusters across volatile global transit corridors (focusing deeply on the Middle East and surrounding international airspaces).
+
+​📉 Dashboard Breakdown & Visual Components
+​As displayed in the interface of , the dashboard is meticulously organized into three main analytical quadrants:
+​Top Impacted Nations By Flights Disruption (Ranked Bar Chart): A high-level comparative chart tracking absolute volumes of affected flights per country to measure regional operational drag.
+​Temporal Impact of NOTAM Issued Closures (Tree-Map / Matrix Visualization): A categorical block-map that segments and highlights the density of closure reasons, allowing quick identification of whether technical, military, or tactical threats are driving airspace shutdowns.
+​Global Airspace Closure Clusters (Geographic Map Visual): An interactive regional map pinned with risk indicators to give flight dispatchers and stakeholders a real-time, high-density look at blocked or highly volatile operational flight paths.
 * **Project Preview:** ![Global Airspace Connectivity Preview](airplace.png)
 
 **SQL Analytics Showcase:** Deep data exploration was performed using SQL to quantify the impact of airspace closures:
@@ -140,8 +157,8 @@ Video Game Sales Performance Dashboard (Tableau)
 
 ### 6️⃣ Global Freelancers SQL Data Cleaning & Analysis 🌍
 * **📌 Project Overview:** This project focuses on database refactoring, data cleaning, and business analysis using **SQL (MySQL)**. The dataset contained multiple formatting, encoding (BOM), and schema errors, which I resolved to build a clean analytical foundation.
-* **🛠️ Tech Stack:** MySQL / MySQL Workbench.
-* **🧼 Database Refactoring & Cleaning Steps:**
+* ** Tech Stack:** MySQL / MySQL Workbench.
+* ** Database Refactoring & Cleaning Steps:**
   * **Fixing Schema & Column Names:** Used `ALTER TABLE ... CHANGE COLUMN` to resolve broken headers caused by CSV import artifacts.
   * **Handling BOM Encoding:** Cleared hidden character encodings (e.g., `ï»¿`) from primary keys (`freelancer_id`) to ensure database integrity and constraint compliance.
   * **Data Type Casting:** Standardized numerical values and percentages to ensure accurate mathematical calculations.
@@ -163,7 +180,8 @@ Video Game Sales Performance Dashboard (Tableau)
 
 ### 7️⃣ Global Freelancers Market Insights Dashboard (Power BI) 📊
 * **📌 Project Overview:** This is an interactive Power BI dashboard designed to visualize the global freelance market. It provides a comprehensive view of pricing structures, demographic distributions, and client satisfaction benchmarks.
-* **✨ Key Analytical Features:**
+* 
+* ** Key Analytical Features:**
     * **Unified Executive View:** Developed high-impact KPI metrics providing real-time visibility into the total talent pool (1,000+ freelancers) and average hourly rates ($52.42).
     * **Tech Domain Profitability Analysis:** Utilized a matrix to compare profitability across sectors like Cybersecurity and Web Development.
     * **Geospatial & Demographic Intelligence:** Integrated interactive mapping and donut charts to analyze workforce diversity and regional footprints.
@@ -175,35 +193,35 @@ Video Game Sales Performance Dashboard (Tableau)
 
 
 
-📊 End-to-End Financial Sales Dashboard 🚀
+📊 End-to-End Financial Sales Dashboard 
 
 ​A streamlined, multi-tool data pipeline project demonstrating the journey of raw financial data—from initial engineering to relational database management and premium interactive BI visualization.
 
 ​🛠️ Tech Stack
-​Excel: Data Cleaning, Parsing, & Logical Feature Engineering 🧪
-​MySQL: Relational Warehousing, SQL Cleaning Scripts, & Advanced Query Aggregations 💾
-​Tableau: High-Impact Executive Dashboards & Dark Mode Mapping 🎨
-​🚀 Project Workflow
+​Excel: Data Cleaning, Parsing, & Logical Feature Engineering 
+​MySQL: Relational Warehousing, SQL Cleaning Scripts, & Advanced Query Aggregations 
+​Tableau: High-Impact Executive Dashboards & Dark Mode Mapping 
+​ Project Workflow
 
-​1. Data Cleaning & Architecture (Excel) 🧼
+​1. Data Cleaning & Architecture (Excel) 
 ​Parsing: Restructured messy string configurations into structured columns.
 ​Feature Engineering: Built nested logical controls to dynamically classify transaction bounds into Small, Medium, or Large tiers.
 ​Financial Modeling: Engineered custom margin calculations for accurate bottom-line tracking.
 ​
-2. Database Warehousing & Pipelines (MySQL) ⚙️
+2. Database Warehousing & Pipelines (MySQL) 
 ​Staging: Imported data as TEXT to completely bypass strict layout truncation errors.
 ​SQL Cleaning: Authored optimized REPLACE scripts to strip currency symbols and permanently altered metadata columns to numeric DOUBLE formats.
 ​Analytics: Executed complex queries utilizing conditional logic (CASE WHEN) and group filtering via HAVING.
 ​
-3. Executive Business Intelligence (Tableau) 💎
+3. Executive Business Intelligence (Tableau) 
 ​Premium UX/UI: Designed an interactive dashboard utilizing a clean, modern desktop layout.
 ​Advanced Visuals: Implemented an interactive global map sheet driven by profit density colors.
 ​Tooltip-in-Tooltip: Embedded a secondary dynamic Bar Chart inside the map's hover tooltips to show localized product performance instantly on hover.
 ​Slicers: Added synchronized, compact drop-down filters (Year, Segment) for smooth slicing.
-​📊 Quick Executive Insights
-​📈 The Volume Engine: The Government sector is the highest volume driver, showing massive traction with the Paseo product line.
-​🌍 Global Balance: Net profits are highly balanced across international borders, with France and Germany holding a marginal competitive edge.
-​⚠️ Product Health: While Paseo dominates, Carretera shows consistent stagnation, signaling a need for pricing or marketing adjustments.
+​ Quick Executive Insights
+​ The Volume Engine: The Government sector is the highest volume driver, showing massive traction with the Paseo product line.
+​ Global Balance: Net profits are highly balanced across international borders, with France and Germany holding a marginal competitive edge.
+​ Product Health: While Paseo dominates, Carretera shows consistent stagnation, signaling a need for pricing or marketing adjustments.
 
 
 * **📸 Project Preview:**
