@@ -14,18 +14,20 @@ Welcome to my comprehensive Data Analytics portfolio! This repository serves as 
 
 ### 1️⃣ Video Game Sales Performance Dashboard (Tableau) 🎮
 Video Game Sales Performance Dashboard (Tableau)
-​📌 Project Overview
+​ Project Overview
 ​This project features an interactive and dynamic data visualization dashboard built using Tableau to uncover historical market trends, consumer behavior, and platform dominance within the global gaming industry. By transforming raw historical sales data into actionable, high-level business insights, this dashboard provides a comprehensive look at how different gaming eras, genres, and regional preferences shape the global market.
-​🛠️ Data Pipeline & Methodology
+
+ Data Pipeline & Methodology
 ​To ensure data integrity and deliver a polished final presentation, the project followed a structured data analytics workflow:
 ​Data Cleaning & Preprocessing: Handled missing values, removed duplicates, and standardized platform/genre naming conventions to ensure consistency across the dataset.
 ​Data Normalization: Structured the dataset to enable fair, proportional comparisons across different historical eras and geographic territories.
 ​Dashboard Architecture: Designed an intuitive, user-friendly Tableau interface equipped with dynamic filters, allowing stakeholders to easily segment data by platform, genre, or region.
+
 ​🔍 Key Analytical Insights
-​Based on the visualizations developed in the dashboard (as shown in "20260614_191435.jpg"), several strategic insights were uncovered:
 ​Genre Market Share: Action and Sports genres distinctively command the highest global market share, establishing themselves as the safest and most lucrative genres historically.
 ​Console Lifecycles & Dominance: Visualized the rise and fall of various console generations, highlighting the legendary, sustained market dominance of platforms like the PS2 and Xbox 360.
 ​Regional Consumer Divergence: Conducted a comparative analysis between North America (NA) and Japan (JP) sales trends. The data revealed sharp cultural differences in gaming preferences (e.g., Japan’s strong inclination toward specific genres/handhelds compared to North America's preference for home consoles and mainstream action titles).
+
 ​📉 Dashboard Breakdown & Visual Components
 ​The dashboard is meticulously organized into four key visual components that work cohesively:
 ​Top Performing Platforms: A comprehensive bar chart ranking the highest-grossing gaming hardware of all time.
