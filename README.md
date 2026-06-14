@@ -77,9 +77,29 @@ Video Game Sales Performance Dashboard (Tableau)
 ---
 
 ### 4️⃣ Zomato vs. Swiggy Food Delivery Analysis (Power BI) 🛒
-* **Objective:** A competitive benchmarking analysis to understand market share and operational efficiency in the food delivery sector.
-* **Process:** Cleaned large datasets to compare order frequency, platform preference, and customer satisfaction metrics across multiple geographic clusters.
-* **Outcome:** Delivered a comparative dashboard that highlighted key growth opportunities in emerging markets for the competing platforms.
+​📌 Project Overview
+​This project focuses on a comprehensive competitive benchmarking analysis between two of the leading giants in the food delivery industry: Zomato and Swiggy. Developed using Power BI, the dashboard evaluates market share, pricing strategies, consumer sentiment, and operational efficiency across various geographic clusters. The ultimate goal of this business intelligence solution is to uncover strategic growth opportunities, compare platform preferences, and understand customer satisfaction dynamics in a highly competitive market.
+
+​🛠️ Technical Implementation & Process
+​The project involved processing and restructuring extensive market datasets to extract meaningful comparative metrics:
+​Data Aggregation & Cleaning: Processed large, multi-platform datasets to handle inconsistencies, normalize restaurant names, and align geographic information for accurate cross-platform comparison.
+​Geographical Clustering: Segmented performance metrics across major metropolitan areas and emerging cities to track hyper-local consumer behavior.
+​Advanced Data Modeling: Structured the data model to allow seamless cross-filtering between multi-select parameters such as cities, cuisine categories, and pricing tiers.
+
+​🔍 Key Analytical Insights & Business Value
+​The analytical architecture of this dashboard provides key takeaways regarding operational and market trends:
+​Geographic Performance & Ratings: Analyzed the distribution of customer satisfaction metrics, highlighting which cities (such as Bangalore, Delhi, and Mumbai) lead in aggregate restaurant ratings across both platforms.
+​App Ownership & Market Penetration: Evaluated the ratio of independent restaurant app ownership versus third-party platform reliance, giving deep insights into merchant behavior and platform ecosystem dependencies.
+​Price Tier Distribution: Conducted a comprehensive price category analysis to understand the correlation between restaurant pricing segments and their overall volume or frequency within the market.
+​Cuisine & Segment Mapping: Isolated dominant food categories (e.g., Bakery, fast food, and regional cuisines) to identify which culinary segments drive the highest engagement and merchant acquisition.
+
+​📉 Dashboard Breakdown & Visual Architecture
+​As structured in the analytical interface of , the dashboard is divided into high-impact visual quadrants:
+​Ratings by City (Horizontal Bar Chart): Ranks major geographic hubs based on the sum of average ratings across both delivery networks, allowing immediate benchmarking of regional satisfaction.
+​App Ownership Ratio (Donut Chart): Visualizes the percentage split of merchants utilizing proprietary applications versus platform partnerships.
+​Price Category Analysis (Area/Trend Chart): Illustrates the distribution and density of restaurants categorized by pricing tiers to evaluate market affordability and premium segments.
+​Geographic Mapping Interface: An integrated map visualization that pins operational data points across regional boundaries for location-based intelligence.
+​Cuisine Matrix Tiles: A modular tree-map or tile system displaying the distribution of available cuisines across the scanned restaurant ecosystem.
 * **Dashboard File:** `Zomato-vs-Swiggy-Analysis.pbix`
 * **Project Preview:** ![Zomato vs Swiggy Preview](Zomato-vs-Swiggy-Analysis.jpg)
 
